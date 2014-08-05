@@ -1,0 +1,29 @@
+243 Puzzle Solver, Project Part 2:  Water & Clock
+
+Team Member 1: Amar Bhatt, aab2210
+Team Member 2: Derek Brown, djb3718
+
+1. Explain how your common solver is able to work with both puzzles.
+
+We used generics in Solver and Puzzle, that takes in the type of 
+configuration we are using.
+
+
+2. What was the type of configuration you used for each puzzle?
+
+Clock used Integers, while Water used an ArrayList<Integer>.
+
+
+3. Starting with the Puzzle interface from part 1, what were the major
+changes and additions you had to make?
+
+We had to make both the Puzzle Interface and Solver class able to
+accept generic types.  We had to implement a predecessors hashmap
+to achieve efficient memoization in Solver.
+
+
+4. What problems, if any, did you encounter when re-designing your 
+project from part 1?
+
+We had issues implementing generics, however this was solved
+using the JavaDocs. 
